@@ -81,6 +81,7 @@ body{
     margin: 15px 0px;
 }
 .reGen-btn{
+    color: black;
     font-size: 20px;
     background: none;
     padding: 0;
@@ -143,6 +144,7 @@ body{
 
 button{
     width: 75px;
+    color: #fff;
     background-color: #0077fe;
     border: none;
     padding: 8px;
@@ -153,25 +155,8 @@ button{
     color: #fff;
     margin-bottom: 5px;
 }
-@media (max-width: 768px){
-    .main{
-        width: 95vw;
-        height: 97vh;
-    }
-    #box0>h2{
-        font-size: 22px;
-    }
-    #box0>p{
-        font-size: 11px;
-    }
-    #box2{
-        width: 60vw;
-    }
-    .output-box,#box3{
-        width: 60vw;
-    }
-}
-@media (max-width: 1080px){
+
+@media (min-width: 769px) and (max-width: 1080px){
     .main{
         width: 90vw;
         height: 95vh;
@@ -187,4 +172,55 @@ button{
         width: 60vw;
     }
 }
-
+@media (max-width: 768px){
+    .main{
+        width: 90vw;
+        height: 95vh;
+    }
+    #box0>h2{
+        font-size: 22px;
+    }
+    #box0>p{
+        font-size: 11px;
+    }
+    #box2{
+        width: 60vw;
+    }
+    .output-box,#box3{
+        width: 60vw;
+    }
+}
+@media (max-width: 325px) {
+    .main{
+        padding-top: 10px;
+        width: 100vw;
+        height: 100vh;
+    }
+    #first-div{
+        display: none;
+    }
+    
+    #img0{
+        width: 40px;
+        height: 40px;
+    }
+    #second-div{
+        margin-top: 0px;
+        height: 90%;
+    }
+    #box0{
+        margin-top: 0px;
+    }
+    #box0>h2{
+        font-size: 22px;
+    }
+    #box0>p{
+        font-size: 11px;
+    }
+    #box2{
+        width: 60vw;
+    }
+    .output-box,#box3{
+        width: 60vw;
+    }
+}
